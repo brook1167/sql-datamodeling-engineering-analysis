@@ -9,3 +9,8 @@ As a newly hired data engineer at Pewlett Hackard, your primary objective is to 
 The first step in this project involves downloading the provided CSV files containing data from Pewlett Hackard. With these files in hand, your task is to design an appropriate database schema by modeling tables that accurately represent the data within the CSV files.
 
 [Download Starter Code Zip](https://static.bc-edx.com/data/dl-1-1/m9/lms/starter/m9-starter-code.zip)
+
+ERD Image
+
+![Employee Erd](EmployeeSQL/employee_erd.png)
+
