@@ -10,7 +10,44 @@ The first step in this project involves downloading the provided CSV files conta
 
 [Download Starter Code Zip](https://static.bc-edx.com/data/dl-1-1/m9/lms/starter/m9-starter-code.zip)
 
-ERD Image
+##QuickDb syntax
+
+Titles
+-
+title_id pk FK >- Employees.emp_title_id
+title varchar(25)
+
+Salaries
+-
+emp_no int FK >- Employees.emp_no
+salary decimal(7,2)
+
+Employees
+-
+emp_no pk int
+emp_title_id varchar(5)
+birth_date date
+first_name varchar(20)
+last_name varchar(20)
+sex varchar(1)
+hire_date date
+
+Department_Manager
+-
+dept_no FK >- Departments.dept_no
+emp_no int(6)
+
+Department_Employee
+-
+emp_no int(6) FK >- Employees.emp_no
+dept_no varchar(4) FK >- Departments.dept_no
+
+Departments
+-
+dept_no pk int
+dept_name
+
+##ERD Image
 
 ![Employee Erd](EmployeeSQL/employee_erd.png)
 
