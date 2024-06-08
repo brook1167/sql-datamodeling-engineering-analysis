@@ -28,8 +28,8 @@ SELECT departments.dept_no,
 FROM departments departments
     INNER JOIN department_manager dept_manager
         ON departments.dept_no = dept_manager.dept_no
-    INNER JOIN employees employees
-        ON dept_manager.emp_no = employees.emp_no;
+    INNER JOIN employees employee
+        ON dept_manager.emp_no = employee.emp_no;
 
 -- Question 4. List the department number for each employee along with that employee’s employee number, last name, first name, and department name.
 
