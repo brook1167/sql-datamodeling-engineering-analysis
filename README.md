@@ -10,7 +10,7 @@ The first step in this project involves downloading the provided CSV files conta
 
 [Download Starter Code Zip](https://static.bc-edx.com/data/dl-1-1/m9/lms/starter/m9-starter-code.zip)
 
-##QuickDb syntax
+## QuickDb syntax
 
 Titles
 -
@@ -47,7 +47,7 @@ Departments
 dept_no pk int
 dept_name
 
-##ERD Image
+## ERD Image
 
 ![Employee Erd](EmployeeSQL/employee_erd.png)
 
